@@ -40,6 +40,7 @@ export const carData = [
     rating: 4.8,
     transmition: "Manual",
     type: "Transformer",
+    discount: "35%",
   },
   {
     name: "Toyota Avanza New",
@@ -82,6 +83,7 @@ export const carData = [
     rating: 4.7,
     transmition: "Automatic",
     type: "VRZ",
+    discount: "40%",
   },
   {
     name: "Toyota Hiace",
@@ -218,5 +220,6 @@ export const carData = [
     rating: 4.7,
     transmition: "Automatic",
     type: "Hybrid G",
+    discount: "25%",
   },
 ];
