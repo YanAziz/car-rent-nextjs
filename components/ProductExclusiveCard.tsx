@@ -24,9 +24,9 @@ const ProductExclusiveCard = ({
   description,
 }: ProductExclusiveCardProps) => {
   return (
-    <Card className="cursor-pointer bg-gradient-to-br from-stone-950 via-stone-900 to-stone-800 border-none text-white">
+    <Card className="cursor-pointer bg-gradient-to-br from-stone-950 via-stone-900 to-stone-800 border-none text-zinc-100">
       <CardHeader>
-        <CardTitle>
+        <CardTitle className="text-lg md:text-xl tracking-wide">
           {name} {type}
         </CardTitle>
       </CardHeader>
@@ -37,9 +37,11 @@ const ProductExclusiveCard = ({
             alt={name}
             width={1920}
             height={1080}
-            className="w-full object-cover bg-slate-100 rounded-lg"
+            className="w-full object-cover rounded-md"
           />
-          <p className="pt-4">{description}</p>
+          <p className="pt-4 text-sm md:text-base tracking-wide">
+            {description}
+          </p>
         </div>
       </CardContent>
       <CardFooter>

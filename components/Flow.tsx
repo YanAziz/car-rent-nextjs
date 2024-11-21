@@ -11,15 +11,15 @@ const Flow = () => {
     "Bayar dan jemput kendaraan.",
   ];
   return (
-    <section className="text-white px-8 lg:px-20 pt-96 lg:pt-12">
-      <div className="pb-10 pt-48 lg:pt-0 grid grid-cols-1 lg:grid-cols-2">
+    <section className="text-white px-8 lg:px-20 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-2">
         <div className="flex justify-center">
           <Image
             src={FlowImage.image}
             alt="logo"
             width={1920}
             height={1080}
-            className="w-full object-cover"
+            className="w-full object-cover pt-0 md:pt-4 lg:pt-0"
           />
         </div>
         <div className="flex flex-col gap-3 w-full">
@@ -39,10 +39,10 @@ const Flow = () => {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <span className="text-sm text-gray-400">
+                    <span className="text-xs md:text-sm text-gray-400">
                       Langkah {index + 1}
                     </span>
-                    <p className="text-sm text-white">{step}</p>
+                    <p className="text-xs md:text-sm text-white">{step}</p>
                   </div>
                 </div>
               </CardContent>
