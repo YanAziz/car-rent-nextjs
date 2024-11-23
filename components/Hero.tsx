@@ -15,7 +15,7 @@ const Hero = () => {
           height={1080}
           className="w-full object-cover h-screen"
         />
-        <h1 className="absolute bottom-24 md:bottom-36 lg:bottom-20 left-8 md:left-24 xl:left-44 xl:bottom-36 text-xl mr-4 md:mr-16 md:text-2xl lg:text-3xl text-zinc-100">
+        <h1 className="absolute bottom-24 md:bottom-20 xl:bottom-32 left-8 md:left-32 xl:left-44 text-xl mr-4 md:mr-16 md:text-2xl lg:text-3xl text-zinc-100">
           Perjalanan yang mudah, perjalanan yang berkesan. Bersama dengan{" "}
           <span className="text-zinc-100 font-bold">EasyDrive</span> menjelajah
           dengan bebas. <br />

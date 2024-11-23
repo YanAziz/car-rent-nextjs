@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
         <div className="flex flex-col justify-center items-center gap-4 bg-zinc-950 py-8 px-4 rounded-lg">
-          <NotebookPen className="size-10 md:size-14 lg:size-20 text-zinc-900 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
+          <NotebookPen className="size-10 md:size-14 lg:size-20 text-zinc-950 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
           <h2 className="text-zinc-100 text-sm md:text-base font-semibold">
             Proses penyewaan yang mudah
           </h2>
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 bg-zinc-950 py-8 px-4 rounded-lg">
-          <Gauge className="size-10 md:size-14 lg:size-20 text-zinc-900 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
+          <Gauge className="size-10 md:size-14 lg:size-20 text-zinc-950 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
           <h2 className="text-zinc-100 text-sm md:text-base font-semibold">
             Armada kendaraan terawat
           </h2>
@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 bg-zinc-950 py-8 px-4 rounded-lg">
-          <Wallet className="size-10 md:size-14 lg:size-20 text-zinc-900 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
+          <Wallet className="size-10 md:size-14 lg:size-20 text-zinc-950 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
           <h2 className="text-zinc-100 text-sm md:text-base font-semibold">
             Harga transparan dan kompetitif
           </h2>
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-4 bg-zinc-950 py-8 px-4 rounded-lg">
-          <Headset className="size-10 md:size-14 lg:size-20 text-zinc-900 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
+          <Headset className="size-10 md:size-14 lg:size-20 text-zinc-950 bg-zinc-300 p-2 md:p-4 lg:p-6 rounded-lg" />
           <h2 className="text-zinc-100 text-sm md:text-base font-semibold">
             Layanan pelannggan 24/7
           </h2>

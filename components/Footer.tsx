@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="flex flex-col mx-6 pt-4 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-zinc-100 bg-zinc-800 py-12 px-8 rounded-t-md xl:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-zinc-100 bg-zinc-800 py-12 px-8 rounded-t-md">
           <div className="flex flex-col gap-2">
             <h1 className="text-xl font-bold">EasyDrive.</h1>
             <p className="text-sm text-zinc-400">
@@ -14,7 +14,7 @@ const Footer = () => {
               macam kendaraan untuk disewa.
             </p>
           </div>
-          <div className="flex flex-col gap-2 lg:ml-24 xl:ml-44">
+          <div className="flex flex-col gap-2 lg:ml-36">
             <h1 className="text-base md:text-lg lg:text-xl font-bold">
               Tentang
             </h1>
@@ -31,7 +31,7 @@ const Footer = () => {
               <Link href="#">Blog</Link>
             </p>
           </div>
-          <div className="flex flex-col gap-2 lg:ml-24 xl:ml-44">
+          <div className="flex flex-col gap-2 lg:ml-36">
             <h1 className="text-base md:text-lg lg:text-xl font-bold">
               Support
             </h1>
