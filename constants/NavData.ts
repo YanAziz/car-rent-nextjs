@@ -12,10 +12,6 @@ export const NavLinks = [
     label: "Home",
   },
   {
-    url: "/about",
-    label: "About",
-  },
-  {
     url: "/car",
     label: "Car",
   },

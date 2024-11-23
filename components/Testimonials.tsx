@@ -13,8 +13,8 @@ const Testimonials = () => {
 
   return (
     <section>
-      <div className="flex flex-col pt-20 px-8 pb-12">
-        <h1 className="text-xl lg:text-2xl text-zinc-100 font-bold">
+      <div className="flex flex-col pb-12 px-8">
+        <h1 className="text-xl md:text-2xl lg:text-3xl text-zinc-100 font-bold">
           Apa kata mereka?
         </h1>
         <Carousel plugins={[plugin.current]}>

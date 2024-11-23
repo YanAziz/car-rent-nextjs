@@ -33,28 +33,30 @@ const ProductCardCar = ({
           className="w-full object-cover bg-zinc-300 rounded-lg"
         />
         <div className="flex flex-col px-2 gap-3 py-2">
-          <h1 className="text-sm md:text-base font-semibold">{name}</h1>
-          <p className="text-xs md:text-sm flex gap-2 items-center">
+          <h1 className="text-base md:text-lg lg:text-xl font-semibold">
+            {name}
+          </h1>
+          <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
             <Gauge className="size-4 text-zinc-400" />
             {transmition}
           </p>
-          <p className="text-xs md:text-sm flex gap-2 items-center">
+          <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
             <Fuel className="size-4 text-zinc-400" />
             {fuel}
           </p>
-          <p className="text-xs md:text-sm flex gap-2 items-center">
+          <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
             <Wallet className="size-4 text-zinc-400" />
             {price} / hari
           </p>
           <div className="flex gap-3">
-            <p className="text-xs md:text-sm flex gap-2 items-center">
+            <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
               <Type className="size-4 text-zinc-400" />
               {type}
             </p>
-            <p className="text-xs md:text-sm flex gap-2 items-center">
+            <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
               <User className="size-4 text-zinc-400" /> {person}
             </p>
-            <p className="text-xs md:text-sm flex gap-2 items-center">
+            <p className="text-xs md:text-sm lg:text-base flex gap-2 items-center">
               <Star className="size-4 text-zinc-400" />
               {rating}
             </p>

@@ -14,7 +14,7 @@ const Fleet = () => {
           className="w-full object-cover rounded-lg h-[400px]"
         />
         <div className="absolute bottom-5 lg:bottom-10 left-5 lg:left-10">
-          <span className="text-zinc-950 text-2xl lg:text-3xl font-bold tracking-tight">
+          <span className="text-zinc-900 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight">
             Armada terawat, <br />
             kepuasan pelanggan yang utama.
           </span>

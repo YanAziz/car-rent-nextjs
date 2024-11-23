@@ -6,7 +6,7 @@ const Offers = () => {
   return (
     <section>
       <div className="flex flex-col p-8">
-        <h1 className="text-xl md:text-2xl text-white font-bold">
+        <h1 className="text-xl md:text-2xl lg:text-3xl text-zinc-100 font-bold">
           Yakin lewatkan promo ini?
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-4 md:pt-6">

@@ -80,11 +80,13 @@ const TestimonialCard = ({
             className="rounded-full object-cover size-12 bg-zinc-600"
           />
           <div className="flex flex-col">
-            <h1 className="text-sm text-zinc-100">{name}</h1>
-            <span className="text-xs text-zinc-500">{social}</span>
+            <h1 className="text-sm md:text-base text-zinc-100">{name}</h1>
+            <span className="text-xs md:text-sm text-zinc-500">{social}</span>
           </div>
         </div>
-        <span className="text-xs tracking-wide">{testi}</span>
+        <span className="text-xs md:text-sm tracking-wide text-zinc-100">
+          {testi}
+        </span>
         <StarRating rating={rating} />
       </div>
     </div>

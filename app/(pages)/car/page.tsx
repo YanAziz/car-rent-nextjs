@@ -21,10 +21,10 @@ const CarPage = () => {
     <div className="min-h-screen flex flex-col">
       <main className="pt-24 pb-12 px-8 flex-grow">
         <div className="flex flex-col">
-          <h1 className="text-xl md:text-2xl text-white font-bold">
+          <h1 className="text-xl md:text-2xl lg:text-3xl text-zinc-100 font-bold">
             Kendaraan terpopuler
           </h1>
-          <p className="text-gray-500 text-sm md:text-base">
+          <p className="text-zinc-500 text-sm md:text-base lg:text-lg">
             Rasakan kendaraan terpopuler pada bulan ini
           </p>
         </div>
@@ -49,18 +49,18 @@ const CarPage = () => {
           <Button
             onClick={handleToggle}
             size="sm"
-            className="bg-zinc-100 text-gray-900 py-2 px-4 rounded-lg hover:bg-zinc-300 font-semibold"
+            className="bg-zinc-100 text-zinc-900 py-2 px-4 rounded-lg hover:bg-zinc-300 font-semibold"
           >
             {isExpanded ? (
               <div className="flex items-center gap-2">
-                <span className="text-gray-900 tracking-tight md:tracking-normal">
+                <span className="text-zinc-900 tracking-tight md:tracking-normal">
                   Lihat lebih sedikit
                 </span>
                 <ArrowUp />
               </div>
             ) : (
               <div className="flex items-center gap-2">
-                <span className="text-gray-900 tracking-tight md:tracking-normal">
+                <span className="text-zinc-900 tracking-tight md:tracking-normal">
                   Lihat lebih banyak
                 </span>
                 <ArrowDown />

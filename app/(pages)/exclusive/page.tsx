@@ -8,10 +8,10 @@ const ExclusivePage = () => {
     <>
       <main className="pt-24 pb-12 px-8">
         <div className="flex flex-col">
-          <h1 className="text-xl md:text-2xl text-zinc-100 font-bold">
+          <h1 className="text-xl md:text-2xl lg:text-3xl text-zinc-100 font-bold">
             Pilihan mobil eksklusif
           </h1>
-          <p className="text-zinc-500 text-sm md:text-base">
+          <p className="text-zinc-500 text-sm md:text-base lg:text-lg">
             Ingin merasakan sensasi mengendarai mobil eksklusif?
           </p>
         </div>

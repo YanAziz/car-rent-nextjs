@@ -24,9 +24,9 @@ const ProductExclusiveCard = ({
   description,
 }: ProductExclusiveCardProps) => {
   return (
-    <Card className="cursor-pointer bg-gradient-to-br from-stone-950 via-stone-900 to-stone-800 border-none text-zinc-100">
+    <Card className="cursor-pointer bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-800 border-none text-zinc-100">
       <CardHeader>
-        <CardTitle className="text-lg md:text-xl tracking-wide">
+        <CardTitle className="text-base md:text-lg lg:text-lg tracking-wide">
           {name} {type}
         </CardTitle>
       </CardHeader>
@@ -39,15 +39,17 @@ const ProductExclusiveCard = ({
             height={1080}
             className="w-full object-cover rounded-md"
           />
-          <p className="pt-4 text-sm md:text-base tracking-wide">
+          <p className="pt-4 text-xs md:text-sm lg:text-base tracking-wide text-zinc-300">
             {description}
           </p>
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="bg-yellow-800 hover:bg-yellow-900">
-          {" "}
-          <span>Hubungi lebih lanjut</span> <Phone className="size-4" />
+        <Button className="bg-yellow-700 hover:bg-yellow-900">
+          <span className="text-xs md:text-sm lg:text-base text-zinc-100">
+            Hubungi lebih lanjut
+          </span>
+          <Phone className="size-4" />
         </Button>
       </CardFooter>
     </Card>

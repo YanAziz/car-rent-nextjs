@@ -44,7 +44,7 @@ const Navbar = () => {
           height={50}
           className="size-8"
         />
-        <p className="text-xl font-bold text-white">EasyDrive</p>
+        <p className="text-xl font-bold text-zinc-100">EasyDrive</p>
       </div>
 
       <div className="flex gap-4 max-md:hidden">
@@ -54,8 +54,8 @@ const Navbar = () => {
             key={link.label}
             className={`flex gap-1 px-4 py-2 text-sm ${
               pathname === link.url
-                ? "text-slate-100 underline underline-offset-8"
-                : "text-slate-100 hover:text-slate-300"
+                ? "text-zinc-100 underline underline-offset-8"
+                : "text-zinc-100 hover:text-zinc-300"
             }`}
           >
             <p>{link.label}</p>
@@ -69,7 +69,7 @@ const Navbar = () => {
           onClick={() => setDropdownMenu(!dropdownMenu)}
         />
         {dropdownMenu && (
-          <div className="absolute top-10 right-0 flex flex-col gap-8 p-5 bg-white shadow-xl rounded-lg">
+          <div className="absolute top-10 right-0 flex flex-col gap-8 p-5 bg-zinc-100 shadow-xl rounded-lg">
             {NavLinks.map((link) => (
               <Link href={link.url} key={link.label} className="flex gap-4">
                 <p>{link.label}</p>
