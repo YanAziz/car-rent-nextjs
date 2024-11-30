@@ -1,7 +1,10 @@
+"use client";
+
 import React from "react";
 import ProductExclusiveCard from "@/components/ProductExclusiveCard";
 import { carData } from "@/constants/CarData";
 import Footer from "@/components/Footer";
+import { motion } from "framer-motion";
 
 const ExclusivePage = () => {
   return (
@@ -23,13 +26,18 @@ const ExclusivePage = () => {
               )
             )
             .map((car) => (
-              <div key={car.name}>
+              <motion.div
+                key={car.name}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ ease: "easeOut", duration: 1 }}
+              >
                 <ProductExclusiveCard
                   {...car}
                   image={car.image.src}
                   description={car.description ?? ""}
                 />
-              </div>
+              </motion.div>
             ))}
         </div>
       </main>

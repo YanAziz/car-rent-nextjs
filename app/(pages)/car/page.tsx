@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { carData } from "@/constants/CarData";
 import { ArrowDown, ArrowUp } from "lucide-react";
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const CarPage = () => {
   const [isExpanded, setIsExpanded] = useState(false); // State untuk mengatur apakah semua kartu ditampilkan
@@ -38,9 +39,14 @@ const CarPage = () => {
             )
             .slice(0, visibleCount) // Batasi jumlah kartu yang dirender
             .map((car) => (
-              <div key={car.name}>
+              <motion.div
+                key={car.name}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ ease: "easeOut", duration: 1 }}
+              >
                 <ProductCardCar {...car} image={car.image.src} />
-              </div>
+              </motion.div>
             ))}
         </div>
 
